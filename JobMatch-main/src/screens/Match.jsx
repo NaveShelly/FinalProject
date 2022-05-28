@@ -14,7 +14,7 @@ export default function Match() {
 
   return (
     <View style={styles.container}>
-      <Image resizeMode='contain' style={styles.image} source={require('../../assets/images/match.jpeg')} />
+      <Image resizeMode='contain' style={styles.image} source={require('../../assets/images/match.png')} />
 
       <Text style={styles.txt}>You and {userSwiped.username} liked each other</Text>
 
